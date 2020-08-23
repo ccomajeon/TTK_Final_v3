@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">켠왕</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="activityname">NextActivity</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="signin">로그인</string>
+    <string name="signin1">회원이시면 여기에서 로그인 해주세요.</string>
+    <string name="success_login">로그인 성공</string>
+    <string name="failed_login">로그인 실패</string>
+    <string name="must_login">이 앱은 회원가입을 해야 정상적으로 사용할 수 있습니다.\n 등록해 주세요.</string>>
+    <string name="signup">회원가입</string>
+    <string name="title_activity_test">test</string>
+</resources>

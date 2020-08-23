@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#4B4B4B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="whitegray">#e9e9e9</color>
+    <color name="main">#005EFF</color>
+    <color name="fontmain">#000000</color>
+    <color name="button1">#3F51B5</color>
+    <color name="button2">#2196F3</color>
+    <color name="button3">#03A9F4</color>
+    <color name="button4">#00BCD4</color>
+    <color name="button5">#009688</color>
+    <color name="button6">#4CAF50</color>
+    <color name="colorTab">#4B4B4B</color>
+    <!--4B4B4B-->
+</resources>

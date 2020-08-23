@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:fitsSystemWindows="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:id="@+id/app_toolbar"/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/index"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="번호들어갈거"/>
+        <!--<TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="제목들어갈거"/>
+        <TextView
+            android:id="@+id/link"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="링크들어갈거"/>
+        <TextView
+            android:id="@+id/minP"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="최소값들어갈거"/>
+        <TextView
+            android:id="@+id/maxP"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="최대값들어갈거"/>
+        <TextView
+            android:id="@+id/pID"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="상품번호"/>
+        <TextView
+            android:id="@+id/pType"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="중고인지아닌지"/>-->
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/clist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

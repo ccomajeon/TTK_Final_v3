@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--높이나 폭 절때 수정하지 말것-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorPrimaryDark">
+
+        <android.support.v7.widget.RecyclerView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/clist"
+            android:drawSelectorOnTop="true"
+            android:background="#D0D0D0"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:layoutManager="LinearLayoutManager"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:layout_weight="1"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/estimate_add"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="견적추가"
+
+            android:onClick="part_add"/>
+        <Button
+            android:id="@+id/part_search"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="검색"
+            android:onClick="part_search"/>
+        <Button
+            android:id="@+id/part_reset"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="초기화"
+            android:onClick="part_reset"/>
+    </LinearLayout>
+</LinearLayout>
